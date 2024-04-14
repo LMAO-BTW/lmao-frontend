@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример использования Sass</title>
+  <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="node_modules/spectre.css/dist/spectre-icons.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
+  <script src="js/message.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+
+    <section class="navbar-section">
+      <h1>LMAO</h1>
+    </section>
+
+    <section class="navbar-section">
+
+      <div class="btn-group btn-group-block col-auto">
+
+        <div class="container">
+          <button id="msg-btn" class="btn btn-primary">Message</button>
+
+          <div style="display: none" class="modal active" id="modal-id">
+            <a href="#close" id="msg-close" class="modal-overlay" aria-label="Close"></a>
+            <div class="modal-container">
+              <div class="modal-header">
+                <a href="#close" class="btn btn-clear float-right" aria-label="Close"></a>
+                <div class="modal-title h5">Modal title</div>
+              </div>
+              <div class="modal-body">
+                <div class="content">
+                  <!-- content here -->
+                </div>
+              </div>
+              <div class="modal-footer">
+                ...
+              </div>
+            </div>
+          </div>
+
+
+          <button class="btn btn-primary">Share</button>
+
+
+        </div>
+
+      </div>
+    </section>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Добро пожаловать!</h2>
+    <p>Это пример использования Sass в HTML.</p>
+  </section>
+</body>
+</html>
